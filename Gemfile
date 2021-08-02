@@ -28,8 +28,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
 
 # Use ActiveStorage variant
-# gem 'mini_magick', '~> 4.8'
-
+gem 'mini_magick', '~> 4.8'
+gem  "carrierwave"
 # Use Capistrano for deploymentr
 # gem 'capistrano-rails', group: :development
 gem 'bootstrap-sass'
