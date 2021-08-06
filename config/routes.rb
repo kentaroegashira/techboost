@@ -10,5 +10,7 @@ Rails.application.routes.draw do
   get 'favorites/index'
   post '/favorites', to: 'favorites#create'
   delete '/favorites', to: 'favorites#destroy'
+  get'/comments/:topic_id/new', to: 'comments#new', as: 'comments'
+  post'/comments/:topic_id/create', to: 'comments#create', as: 'comments_create'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
